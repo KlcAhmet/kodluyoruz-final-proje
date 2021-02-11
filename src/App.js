@@ -1,5 +1,3 @@
-import React, { useState, useEffect } from "react"
-import axios from "axios"
 import {
   BrowserRouter as Router,
   Switch,
@@ -13,25 +11,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
 
 function App() {
-
-  const [headerLinks, setHeaderLinks] = useState([])
-
-
-  useEffect(() => {
-    axios.get('http://localhost:3004/headerLinks')
-      .then(function ({ data }) {
-        setHeaderLinks(data)
-      })
-      .catch(function (error) {
-        console.log("Hata")
-        console.log(error)
-      })
-  }, [])
-
   return (
     <Router>
-      <Header links={headerLinks} />
-
+      <Header />
       <main>
         <Switch>
           <Route path="/contagion" />
@@ -41,7 +23,6 @@ function App() {
           </Route>
         </Switch>
       </main>
-
     </Router >
   );
 }
