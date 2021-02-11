@@ -15,7 +15,6 @@ function Header() {
                         <ContactButton />
                     </div>
                 </div>
-
             </div>
         </header>
     )
