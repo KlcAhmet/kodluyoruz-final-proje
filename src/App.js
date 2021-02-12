@@ -4,8 +4,8 @@ import {
   Route
 } from "react-router-dom"
 
-/* componenet */
-import Header from "./components/Header"
+/* components */
+import { Header, Overview } from "./components/index"
 /* css */
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
@@ -19,8 +19,7 @@ function App() {
           <Route path="/contagion" />
           <Route path="/Symptoms" />
           <Route path="/prevention" />
-          <Route path="/">
-          </Route>
+          <Route path="/" component={Overview} />
         </Switch>
       </main>
     </Router >
