@@ -1,11 +1,10 @@
-import { NavLink } from "react-router-dom"
 import React, { useState, useEffect } from "react"
 import axios from "axios"
+import OverviewImage from "./OverviewImage"
 
 function Overview() {
 
     const [infoLink, setInfoLink] = useState([])
-    const result = []
 
     useEffect(() => {
         axios.get('http://localhost:3004/indexPage')
@@ -30,9 +29,21 @@ function Overview() {
 
 function resultHTML(i, title, subtitle, description, imagesrc, buttontitle) {
     return (
-        <div key={i}>
-            {title}
-        </div>
+        <section key={i}>
+            <div className="row">
+                <div className="info col-12 col-md-6">
+                    <h4>{title}</h4>
+                    <h5>{subtitle}</h5>
+                    <p>{description}</p>
+                    <button>{buttontitle}</button>
+                    <div className="info__img">
+                        <figure>
+                            <OverviewImage param={imagesrc} />
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
     )
 }
 
