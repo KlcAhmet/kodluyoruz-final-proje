@@ -31,11 +31,11 @@ function Overview() {
 function resultHTML(i, title, subtitle, description, imagesrc, buttontitle) {
     return (
         <section key={i}>
-            <div className="row">
-                <div className="info col-12 col-md-6">
-                    <h1>{title}</h1>
-                    <span>{subtitle}</span>
-                    <p>{description}</p>
+            <div className="info row">
+                <div className="info__desc col-12 col-md-6">
+                    <h1 className="info__desc__title">{title}</h1>
+                    <span className="info__desc__subtitle">{subtitle}</span>
+                    <p className="info__desc__description">{description}</p>
                     <CommonButton link="#" cls="common-button" text={buttontitle} />
                 </div>
                 <div className="info__img col-12 col-md-6">
