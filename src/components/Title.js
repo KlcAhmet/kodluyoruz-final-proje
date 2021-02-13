@@ -1,4 +1,4 @@
-function Title({ cls, title }) {
+function Title({ title, cls }) {
     return (
         <h1 className={cls}>{title}</h1>
     )
