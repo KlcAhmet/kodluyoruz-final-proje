@@ -41,15 +41,18 @@
         "description": "There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to .",
         "cards": [{
                 "title": "Air Transmission",
-                "description": "Objectively evolve tactical expertise before extensible initiatives. Efficiently simplify"
+                "description": "Objectively evolve tactical expertise before extensible initiatives. Efficiently simplify",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/card1.svg?token=AAPU54P54TNK767M6ORQZ5TAGGQQG"
             },
             {
                 "title": "Human Contacts",
-                "description": "Washing your hands is one of thesimplest ways you can protect"
+                "description": "Washing your hands is one of thesimplest ways you can protect",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/card2.svg?token=AAPU54K7YU5U542KOAH42EDAGGQQM"
             },
             {
                 "title": "Containted Objects",
-                "description": "Use the tissue while sneezing,In this way, you can protect your droplets."
+                "description": "Use the tissue while sneezing,In this way, you can protect your droplets.",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/card3.svg?token=AAPU54P6UQY73YNZBQ4NUBLAGGQQO"
             }
         ]
     },
