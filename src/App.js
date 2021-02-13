@@ -15,12 +15,14 @@ function App() {
     <Router>
       <Header />
       <main>
-        <Switch>
-          <Route path="/contagion" />
-          <Route path="/Symptoms" />
-          <Route path="/prevention" />
-          <Route path="/" component={Overview} />
-        </Switch>
+        <div className="container">
+          <Switch>
+            <Route path="/contagion" />
+            <Route path="/Symptoms" />
+            <Route path="/prevention" />
+            <Route path="/" component={Overview} />
+          </Switch>
+        </div>
       </main>
     </Router >
   );
