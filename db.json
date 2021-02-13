@@ -24,14 +24,14 @@
             "title": "COVID-19 Alert",
             "subtitle": "Stay at Home quarantine To stop Corona virus",
             "description": "There is no specific medicine to prevent or treat coronavirus disease (COVID-19). People may need supportive care to .",
-            "imagesrc": "overview1.svg",
+            "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/overview1.svg?token=AAPU54OD3MZKUL5NBP5AV6TAF7TNY",
             "buttontitle": "Let Us Help"
         },
         {
             "title": "What Is Covid-19",
             "subtitle": "Coronavirus",
             "description": "Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent outbreak of respiratory illness now called COVID-19.Lauren Sauer, M.S., the director of operations with the Johns Hopkins Office of Critical Event Preparedness and Response",
-            "imagesrc": "overview2.svg",
+            "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/overview2.svg?token=AAPU54PD77FSLYRLPSQPTR3AF7TOC",
             "buttontitle": "Learn More"
         }
     ],
