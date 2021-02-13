@@ -1,6 +1,6 @@
-function OverviewImage(imagesrc) {
+function OverviewImage({ src }) {
     return (
-        <img src={Object.values(imagesrc)[0]} alt="Image" />
+        <img className="img-fluid" src={src} alt="Image" />
     )
 }
 
