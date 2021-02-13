@@ -1,6 +1,6 @@
-function OverviewImage(param) {
+function OverviewImage(imagesrc) {
     return (
-        <img src={Object.values(param)[0]} alt="Image" />
+        <img src={Object.values(imagesrc)[0]} alt="Image" />
     )
 }
 
