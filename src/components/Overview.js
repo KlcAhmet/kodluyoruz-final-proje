@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
-import OverviewImage from "./OverviewImage"
-import CommonButton from "./CommonButton"
+import { Title, Subtitle, Description, OverviewImage, CommonButton } from "../componentmap/headercomponents"
 
 function Overview() {
 
@@ -33,9 +32,9 @@ function resultHTML(i, title, subtitle, description, imagesrc, buttontitle) {
         <section key={i}>
             <div className="info row">
                 <div className="info__desc col-12 col-md-6">
-                    <h1 className="info__desc__title">{title}</h1>
-                    <span className="info__desc__subtitle">{subtitle}</span>
-                    <p className="info__desc__description">{description}</p>
+                    <Title cls="info__title" title={title} />
+                    <Subtitle cls="info__desc__subtitle" title={subtitle} />
+                    <Description cls="info__desc__description" title={description} />
                     <CommonButton link="#" cls="common-button" text={buttontitle} />
                 </div>
                 <div className="info__img col-12 col-md-6">
