@@ -5,7 +5,7 @@ import {
 } from "react-router-dom"
 
 /* components */
-import { Header, Overview } from "./components/index"
+import { Header, Overview, Contagion } from "./componentmap/index"
 /* css */
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
@@ -17,7 +17,7 @@ function App() {
       <main>
         <div className="container">
           <Switch>
-            <Route path="/contagion" />
+            <Route path="/contagion" component={Contagion} />
             <Route path="/Symptoms" />
             <Route path="/prevention" />
             <Route path="/" component={Overview} />
