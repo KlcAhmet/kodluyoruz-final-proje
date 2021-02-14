@@ -62,29 +62,34 @@
         "description": "Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent outbreak of respiratory",
         "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/symptomps.svg?token=AAPU54JOISY6W5LI53LUHVLAGGYLY"
     },
-    "preventionPage": [{
-            "id": "01",
-            "title": "Wear Masks",
-            "description": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively",
-            "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/prevention1.svg"
-        },
-        {
-            "id": "02",
-            "title": "Wash Your Hands",
-            "description": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively",
-            "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/prevention2.svg"
-        },
-        {
-            "id": "03",
-            "title": "Use nose - rag",
-            "description": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively",
-            "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/prevention3.svg"
-        },
-        {
-            "id": "04",
-            "title": "Avoid Contacts",
-            "description": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively",
-            "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/prevention4.svg"
-        }
-    ]
+    "preventionPage": {
+        "title": "Covid-19",
+        "subtitle": "What should we do",
+        "description": "Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused",
+        "information": [{
+                "id": "01",
+                "title": "Wear Masks",
+                "description": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/prevention1.svg"
+            },
+            {
+                "id": "02",
+                "title": "Wash Your Hands",
+                "description": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/prevention2.svg"
+            },
+            {
+                "id": "03",
+                "title": "Use nose - rag",
+                "description": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/prevention3.svg"
+            },
+            {
+                "id": "04",
+                "title": "Avoid Contacts",
+                "description": "Continually seize impactful vortals rather than future-proof supply chains. Uniquely exploit emerging niches via fully tested meta-services. Competently pursue standards compliant leadership skills vis-a-vis pandemic 'outside the box' thinking. Objectively",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/prevention4.svg"
+            }
+        ]
+    }
 }
