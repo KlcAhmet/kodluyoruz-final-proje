@@ -59,7 +59,8 @@
     "symptompsPage": {
         "title": "Covid-19",
         "subtitle": "Symptomps",
-        "description": "Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent outbreak of respiratory"
+        "description": "Corona viruses are a type of virus. There are many different kinds, and some cause disease. A newly identified type has caused a recent outbreak of respiratory",
+        "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/symptomps.svg?token=AAPU54JOISY6W5LI53LUHVLAGGYLY"
     },
     "preventionPage": [{
             "id": "01",
