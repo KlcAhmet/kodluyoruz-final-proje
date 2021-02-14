@@ -1,6 +1,6 @@
-function OverviewImage({ src }) {
+function OverviewImage({ src, cls }) {
     return (
-        <img className="img-fluid" src={src} alt="Image" />
+        <img className={`img-fluid ${cls}`} src={src} alt="Image" />
     )
 }
 
