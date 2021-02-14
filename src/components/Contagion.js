@@ -40,7 +40,9 @@ function Contagion() {
 function resultCard(i, title, description, imagesrc) {
     return (
         <div key={i} className="card" style={{ width: '18rem' }}>
-            <OverviewImage src={imagesrc} cls="card-img-top" />
+            <figure>
+                <OverviewImage src={imagesrc} cls="card-img-top" />
+            </figure>
             <div className="card-body">
                 <CardTitle cls="card__title" title={title} />
                 <Description cls="card__desc" title={description} />
