@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
-import { Title, Subtitle, Description, OverviewImage, CommonButton } from "../componentmap/headercomponents"
+import { Title, Subtitle, Description, OverviewImage, CommonButton } from "../componentmap/maincomponents"
 
 function Overview() {
 
