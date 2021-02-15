@@ -18,6 +18,11 @@
             "id": 3,
             "title": "prevention",
             "link": "/prevention"
+        },
+        {
+            "id": 4,
+            "title": "statistics",
+            "link": "/statistics"
         }
     ],
     "indexPage": [{
