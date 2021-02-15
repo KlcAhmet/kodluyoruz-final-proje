@@ -22,7 +22,6 @@ function Contagion() {
                 console.log(error)
             })
     }, [])
-    console.log(cards)
     return (
         <section>
             <div className="info">
