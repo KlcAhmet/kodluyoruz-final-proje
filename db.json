@@ -99,18 +99,41 @@
     },
     "istatistic": {
         "map": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/Map.svg",
-        "arrows": [
-            { "mapStatArrow": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/mapStatArrow.svg" },
-            { "downArrow": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/down%20arrow.svg" },
-            { "upArrow": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/up%20arrow.svg" }
-        ],
-        "flag": [
-            { "china": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/98dbb558ddadc22833bdbf70d74289fb04a48708/src/img/china.svg" },
-            { "germany": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/germany.svg" },
-            { "iran": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/iran.svg" },
-            { "italy": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/italy.svg" },
-            { "spain": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/spain.svg" },
-            { "us": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/usFlag.svg" }
+        "arrows": {
+            "mapStatArrow": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/mapStatArrow.svg",
+            "downArrow": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/down%20arrow.svg",
+            "upArrow": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/up%20arrow.svg"
+        },
+        "flag": [{
+                "id": 1,
+                "name": "China",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/98dbb558ddadc22833bdbf70d74289fb04a48708/src/img/china.svg"
+            },
+            {
+                "id": 2,
+                "name": "Germany",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/germany.svg"
+            },
+            {
+                "id": 3,
+                "name": "Iran",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/iran.svg"
+            },
+            {
+                "id": 4,
+                "name": "Italy",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/italy.svg"
+            },
+            {
+                "id": 5,
+                "name": "Spain",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/spain.svg"
+            },
+            {
+                "id": 6,
+                "name": "USA",
+                "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/usFlag.svg"
+            }
         ]
     }
 }
