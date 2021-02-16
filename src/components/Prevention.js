@@ -13,11 +13,9 @@ function Prevention() {
                 const result = []
                 setHeader(data)
                 data.information.forEach(({ id, title, description, imagesrc }) => {
-                    console.log(imagesrc)
                     result.push(resultHTML(id, title, description, imagesrc))
                 });
                 setInformation(result)
-                console.log(data)
             })
             .catch(function (error) {
                 console.log("Hata")
