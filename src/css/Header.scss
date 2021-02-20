@@ -1,0 +1,58 @@
+@use 'App.scss';
+:root {
+    --font-size: 18px;
+    --line-height: 22px;
+    --font-style: normal;
+}
+
+.header {
+    margin-top: 31px;
+    margin-bottom: 51px;
+    .logo {
+        &__img {
+            max-width: 200px;
+        }
+    }
+    .navlink {
+        display: flex;
+        justify-content: flex-end;
+        &__link {
+            color: var(--subTitle-color);
+            font-family: var(--font-family);
+            font-style: var(--font-style);
+            font-weight: normal;
+            font-size: var(--font-size);
+            line-height: var(--line-height);
+            margin-left: 15px;
+            text-decoration: none;
+            &:hover {
+                color: var(--selection-color)
+            }
+        }
+        .active {
+            position: relative;
+            color: var(--selection-color);
+        }
+        .active::after {
+            content: "";
+            position: absolute;
+            background-color: var(--selection-color);
+            top: 28px;
+            left: 50%;
+            transform: translateX(-50%);
+            height: 8px;
+            width: 8px;
+            border-radius: 100%;
+        }
+    }
+    .contact {
+        a {
+            color: var(--selection-color);
+            font-family: var(--font-family);
+            font-style: var(--font-style);
+            font-weight: 500;
+            font-size: var(--font-size);
+            line-height: var(--line-height);
+        }
+    }
+}
