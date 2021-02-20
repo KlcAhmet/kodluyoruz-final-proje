@@ -8,7 +8,7 @@ import {
 import { Header, Footer, Overview, Contagion, Symptomps, Prevention, Statistics } from "./componentmap/index"
 /* css */
 import 'bootstrap/dist/css/bootstrap.css';
-import './App.css';
+import './css/App.css';
 
 function App() {
   return (
