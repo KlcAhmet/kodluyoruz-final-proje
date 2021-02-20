@@ -1,6 +1,4 @@
-import Logo from "./Logo"
-import HeaderLinks from "./HeaderLinks"
-import ContactButton from "./ContactButton"
+import { Logo, HeaderLinks, ContactButton } from "../componentmap/maincomponents"
 
 function Header() {
     return (
