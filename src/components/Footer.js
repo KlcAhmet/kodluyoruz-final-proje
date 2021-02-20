@@ -1,4 +1,4 @@
-import { Logo, HeaderLinks } from "../componentmap/maincomponents"
+import { Logo, HeaderLinks, FooterLogo } from "../componentmap/maincomponents"
 
 function Footer() {
     return (
@@ -12,7 +12,7 @@ function Footer() {
                         <HeaderLinks />
                     </div>
                     <div className="col-12 col-sm-3 align-self-center">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Unde, et ducimus. Fuga, illo ut temporibus eveniet perferendis laboriosam tenetur eius iste a aperiam? Aliquid neque odit quod illo qui? Accusantium?
+                        <FooterLogo />
                     </div>
                 </div>
                 <div className="row">
