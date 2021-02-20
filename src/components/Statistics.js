@@ -56,7 +56,6 @@ function Statistics() {
 
 
 function flags(id, name, imagesrc, arrow) {
-    console.log(arrow)
     return (
         <div key={id} className="stats row col-12">
             <div className="flag col-2">
