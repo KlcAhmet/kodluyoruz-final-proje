@@ -135,5 +135,31 @@
                 "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/usFlag.svg"
             }
         ]
-    }
+    },
+
+    "footerLinks": [{
+            "id": 0,
+            "name": "facebook",
+            "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/footerFacebook.svg",
+            "link": "http://facebook.com"
+        },
+        {
+            "id": 1,
+            "name": "youtube",
+            "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/footerYoutube.svg",
+            "link": "http://youtube.com"
+        },
+        {
+            "id": 2,
+            "name": "vimeo",
+            "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/footerVimeo.svg",
+            "link": "http://vimeo.com"
+        },
+        {
+            "id": 3,
+            "name": "twitter",
+            "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/footerTwitter.svg",
+            "link": "http://twitter.com"
+        }
+    ]
 }
