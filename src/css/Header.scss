@@ -56,3 +56,23 @@
         }
     }
 }
+
+@media screen and (max-width: 992px) {
+    .header {
+        .logo {
+            display: flex;
+            justify-content: center;
+        }
+        .navlink {
+            display: flex;
+            justify-content: center;
+            flex-flow: row wrap;
+        }
+        .active {
+            text-decoration: underline;
+        }
+        .active::after {
+            display: none;
+        }
+    }
+}

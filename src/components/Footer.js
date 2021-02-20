@@ -3,7 +3,7 @@ import { Logo, HeaderLinks, FooterLogo } from "../componentmap/maincomponents"
 function Footer() {
     return (
         <footer>
-            <div className="container">
+            <div className="footer container">
                 <div className="row">
                     <div className="col-12 col-sm-3 align-self-center">
                         <Logo />
