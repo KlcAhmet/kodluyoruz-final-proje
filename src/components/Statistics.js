@@ -5,19 +5,18 @@ import { Description, OverviewImage, CardTitle } from "../componentmap/maincompo
 function Statistics() {
     const [map, setMap] = useState()
     const [arrows, setArrows] = useState([])
-    const [flag, setFlag] = useState([])
-
+    const [stats, setStats] = useState([])
 
     useEffect(() => {
         axios.get('http://localhost:3004/istatistic')
             .then(function ({ data }) {
                 const result = []
-                setMap(data.map)
                 setArrows(data.arrows)
+                setMap(data.map)
                 data.flag.forEach(({ id, name, imagesrc }) => {
-                    result.push(flags(id, name, imagesrc, arrows.upArrow))
+                    result.push(flags(id, name, imagesrc, data.arrows.upArrow))
                 });
-                setFlag(result)
+                setStats(result)
             })
             .catch(function (error) {
                 console.log("Hata")
@@ -47,7 +46,7 @@ function Statistics() {
                         </div>
                     </section>
                     <section>
-                        {flag}
+                        {stats}
                     </section>
                 </div>
             </div>
@@ -57,8 +56,7 @@ function Statistics() {
 
 
 function flags(id, name, imagesrc, arrow) {
-
-
+    console.log(arrow)
     return (
         <div key={id} className="stats row col-12">
             <div className="flag col-2">
