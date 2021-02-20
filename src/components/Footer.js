@@ -1,29 +1,6 @@
-import React, { useState, useEffect } from "react"
-import axios from "axios"
-import Logo from "./Logo"
-import HeaderLinks from "./HeaderLinks"
-import { Description } from "../componentmap/maincomponents"
+import { Logo, HeaderLinks } from "../componentmap/maincomponents"
 
 function Footer() {
-
-    const [footerLink, setFooterLink] = useState([])
-
-    useEffect(() => {
-        axios.get('http://localhost:3004/footerLinks')
-            .then(function ({ data }) {
-                console.log(data)
-                const result = []
-                /* data.forEach(({ title, subtitle, description, imagesrc, buttontitle }, i) => {
-                    result.push(resultHTML(i, title, subtitle, description, imagesrc, buttontitle))
-                });
-                setInfoLink(result) */
-            })
-            .catch(function (error) {
-                console.log("Hata")
-                console.log(error)
-            })
-    }, [])
-
     return (
         <footer>
             <div className="container">
@@ -47,6 +24,5 @@ function Footer() {
         </footer>
     )
 }
-
 
 export default Footer
