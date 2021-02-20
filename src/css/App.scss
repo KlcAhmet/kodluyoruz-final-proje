@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+:root {
+    --subTitle-color: #035755;
+    --selection-color: #FB4C47;
+    --paragraph-color: #4B4F51;
+    --font-family: 'Roboto', sans-serif;
+}
+
 body {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0), #FFF8F8, #B57474);
+    background: linear-gradient(0deg, #FFF8F8, #B57474);
 }
