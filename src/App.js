@@ -5,7 +5,7 @@ import {
 } from "react-router-dom"
 
 /* components */
-import { Header, Overview, Contagion, Symptomps, Prevention, Statistics } from "./componentmap/index"
+import { Header, Footer, Overview, Contagion, Symptomps, Prevention, Statistics } from "./componentmap/index"
 /* css */
 import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
@@ -25,6 +25,7 @@ function App() {
           </Switch>
         </div>
       </main>
+      <Footer />
     </Router >
   );
 }
