@@ -1,27 +1,27 @@
 {
     "headerLinks": [{
             "id": 0,
-            "title": "overview",
+            "title": "Overview",
             "link": "/"
         },
         {
             "id": 1,
-            "title": "contagion",
+            "title": "Contagion",
             "link": "/contagion"
         },
         {
             "id": 2,
-            "title": "symptoms",
+            "title": "Symptoms",
             "link": "/symptoms"
         },
         {
             "id": 3,
-            "title": "prevention",
+            "title": "Prevention",
             "link": "/prevention"
         },
         {
             "id": 4,
-            "title": "statistics",
+            "title": "Statistics",
             "link": "/statistics"
         }
     ],
