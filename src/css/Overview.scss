@@ -1,0 +1,56 @@
+@use 'App.scss';
+:root {
+    --font-style: normal;
+    --font-weight-header: bold;
+}
+
+
+/* 
+* :root {
+    --subTitle-color: #035755;
+    --selection-color: #FB4C47;
+    --paragraph-color: #4B4F51;
+    --font-family: 'Roboto', sans-serif;
+}  */
+
+.content {
+    .info {
+        &__title {
+            color: var(--selection-color);
+            font-family: var(--font-family);
+            font-style: var(--font-style);
+            font-weight: var(--font-weight-header);
+            font-size: 25px;
+            line-height: 105%;
+        }
+        &__subtitle {
+            color: var(--subTitle-color);
+            font-family: var(--font-family);
+            font-style: var(--font-style);
+            font-weight: var(--font-weight-header);
+            font-size: 44px;
+            line-height: 110%;
+            text-transform: capitalize;
+        }
+        &__desc {
+            color: var(--paragraph-color);
+            font-family: var(--font-family);
+            font-style: var(--font-style);
+            font-weight: normal;
+            font-size: 18px;
+            line-height: 150%;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            display: -webkit-box;
+            -webkit-line-clamp: 7;
+            -webkit-box-orient: vertical;
+        }
+    }
+    /* &__img {} */
+}
+
+section:nth-of-type(even) {
+    div:nth-child(1) {
+        flex-direction: row-reverse;
+    }
+}
