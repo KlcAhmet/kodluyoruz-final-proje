@@ -23,7 +23,7 @@ function Overview() {
     }, [])
 
     return (
-        <div>{infoLink}</div>
+        <div className="reverse-info">{infoLink}</div>
     )
 }
 
