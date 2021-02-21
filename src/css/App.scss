@@ -9,3 +9,17 @@
 body {
     /* background: linear-gradient(0deg, #FFF8F8, #B57474); */
 }
+
+.common-button {
+    background: var(--selection-color);
+    box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
+    border-radius: 65px;
+    padding: 24px 57px;
+    font-family: var(--font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
