@@ -31,7 +31,7 @@ function Prevention() {
                 <Subtitle cls="info__subtitle" title={header.subtitle} />
                 <Description cls="info__description" title={header.description} />
             </div>
-            <div>
+            <div className="reverse-info">
                 {information}
             </div>
         </section>
