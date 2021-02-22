@@ -7,8 +7,9 @@ import {
 /* components */
 import { Header, Footer, Overview, Contagion, Symptomps, Prevention, Statistics } from "./componentmap/index"
 /* css */
-import 'bootstrap/dist/css/bootstrap.css';
-import './css/App.css';
+import 'bootstrap/dist/css/bootstrap.css'
+import './css/App.css'
+import './css/Footer.css'
 
 function App() {
   return (
