@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Header />
       <main>
-        <div className="container">
+        <div className="container wrapper">
           <Switch>
             <Route path="/contagion" component={Contagion} />
             <Route path="/Symptoms" component={Symptomps} />

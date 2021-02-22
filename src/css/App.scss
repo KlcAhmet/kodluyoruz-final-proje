@@ -10,6 +10,10 @@ body {
     /* background: linear-gradient(0deg, #FFF8F8, #B57474); */
 }
 
+.wrapper {
+    min-height: calc(100vh - 250px);
+}
+
 .common-button {
     background: var(--selection-color);
     box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
