@@ -11,7 +11,7 @@ function FooterLogo() {
                 console.log(data)
                 const result = []
                 data.forEach(({ id, imagesrc, link }) => {
-                    const temp = <a className="" key={id} href={link} target="_blank"><OverviewImage cls="" src={imagesrc} /></a>
+                    const temp = <a className="socialmedia__link" key={id} href={link} target="_blank"><OverviewImage cls="" src={imagesrc} /></a>
                     result.push(temp)
                 });
                 setFooterLink(result)

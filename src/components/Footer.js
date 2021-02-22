@@ -11,7 +11,7 @@ function Footer() {
                     <div className="col-12 col-sm-6 align-self-center">
                         <HeaderLinks />
                     </div>
-                    <div className="col-12 col-sm-3 align-self-center">
+                    <div className="socialmedia col-12 col-sm-3 align-self-center">
                         <FooterLogo />
                     </div>
                 </div>
