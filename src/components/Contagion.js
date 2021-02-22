@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
 import { Title, Subtitle, Description, OverviewImage, CardTitle } from "../componentmap/maincomponents"
+import '../css/Contagion.css'
 
 function Contagion() {
     const [info, setInfo] = useState([])
@@ -23,16 +24,20 @@ function Contagion() {
             })
     }, [])
     return (
-        <section>
-            <div className="info">
-                <Title cls="info__title" title={info.title} />
-                <Subtitle cls="info__subtitle" title={info.subtitle} />
-                <Description cls="info__description" title={info.description} />
-            </div>
-            <div>
+        <>
+            <section>
+                <div className="page-header">
+                    <div className="info">
+                        <Title cls="info__title" title={info.title} />
+                        <Subtitle cls="info__subtitle" title={info.subtitle} />
+                        <Description cls="info__description" title={info.description} />
+                    </div>
+                </div>
+            </section>
+            <section>
                 {cards}
-            </div>
-        </section>
+            </section>
+        </>
     )
 }
 
