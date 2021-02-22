@@ -22,4 +22,7 @@ body {
     line-height: 29px;
     text-transform: capitalize;
     color: #FFFFFF;
+    &:hover {
+        color: white;
+    }
 }
