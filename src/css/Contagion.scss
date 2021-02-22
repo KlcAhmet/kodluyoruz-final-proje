@@ -1,0 +1,50 @@
+@use 'App.scss';
+
+/* :root {
+    --subTitle-color: #035755;
+    --selection-color: #FB4C47;
+    --paragraph-color: #4B4F51;
+    --font-family: 'Roboto', sans-serif;
+} */
+
+.card {
+    background-color: #FFFFFF;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-bottom: 6px solid transparent !important;
+    border-radius: 10px !important;
+    box-shadow: 0px 35px 87px rgba(0, 0, 0, 0.11);
+    box-sizing: content-box;
+    margin: 0px 10px 100px 10px;
+    width: 290px !important;
+    padding: 20px;
+    img {
+        height: 250px;
+    }
+    .card-body {
+        &__title {
+            color: var(--subTitle-color);
+            font-family: var(font-family);
+            font-style: normal;
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 147%;
+            text-align: center;
+            text-transform: capitalize;
+        }
+        &__desc {
+            color: var(--paragraph-color);
+            font-family: var(font-family);
+            font-style: normal;
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 185%;
+            text-align: center;
+            text-transform: capitalize;
+        }
+    }
+    &:hover {
+        border-block-color: var(--selection-color) !important;
+    }
+}

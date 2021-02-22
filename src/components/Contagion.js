@@ -35,7 +35,9 @@ function Contagion() {
                 </div>
             </section>
             <section>
-                {cards}
+                <div className="row col-12 d-flex justify-content-center">
+                    {cards}
+                </div>
             </section>
         </>
     )
@@ -48,8 +50,8 @@ function resultCard(i, title, description, imagesrc) {
                 <OverviewImage src={imagesrc} cls="card-img-top" />
             </figure>
             <div className="card-body">
-                <CardTitle cls="card__title" title={title} />
-                <Description cls="card__desc" title={description} />
+                <CardTitle cls="card-body__title" title={title} />
+                <Description cls="card-body__desc" title={description} />
             </div>
         </div>
     )

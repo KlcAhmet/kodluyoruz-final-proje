@@ -17,7 +17,7 @@ function Footer() {
                 </div>
                 <div className="row">
                     <div className="col-12 d-flex justify-content-center">
-                        <small>Bu web sitesinin <a href="https://github.com/KlcAhmet/kodluyoruz-final-proje" target="_blank" rel="noopener noreferrer">kaynak kodlarına</a> Github üzerinden ulaşabilirsiniz ❤️</small>
+                        <small>Bu web sitesinin <a href="https://github.com/KlcAhmet" target="_blank">github.com/KlcAhmet----</a> <a href="https://github.com/KlcAhmet/kodluyoruz-final-proje" target="_blank" rel="noopener noreferrer">kaynak kodlarına</a> Github üzerinden ulaşabilirsiniz ❤️</small>
                     </div>
                 </div>
             </div>
