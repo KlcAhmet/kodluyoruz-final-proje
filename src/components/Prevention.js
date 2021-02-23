@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
 import { Title, Subtitle, Description, OverviewImage, CardTitle } from "../componentmap/maincomponents"
+import '../css/Prevention.css'
 
 function Prevention() {
     const [header, setHeader] = useState([])
@@ -26,11 +27,14 @@ function Prevention() {
 
     return (
         <section>
-            <div className="info">
-                <Title cls="info__title" title={header.title} />
-                <Subtitle cls="info__subtitle" title={header.subtitle} />
-                <Description cls="info__description" title={header.description} />
+            <div className="page-header">
+                <div className="info">
+                    <Title cls="info__title" title={header.title} />
+                    <Subtitle cls="info__subtitle" title={header.subtitle} />
+                    <Description cls="info__description" title={header.description} />
+                </div>
             </div>
+
             <div className="reverse-info">
                 {information}
             </div>
