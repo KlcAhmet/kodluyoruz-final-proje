@@ -18,10 +18,12 @@ function Symptoms() {
 
     return (
         <section>
-            <div className="info">
-                <Title cls="info__title" title={info.title} />
-                <Subtitle cls="info__subtitle" title={info.subtitle} />
-                <Description cls="info__description" title={info.description} />
+            <div className="page-header">
+                <div className="info">
+                    <Title cls="info__title" title={info.title} />
+                    <Subtitle cls="info__subtitle" title={info.subtitle} />
+                    <Description cls="info__description" title={info.description} />
+                </div>
             </div>
             <figure>
                 <OverviewImage src={info.imagesrc} cls="card-img-top" />
