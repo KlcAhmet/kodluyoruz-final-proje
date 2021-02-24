@@ -50,7 +50,7 @@ function resultHTML(id, title, description, imagesrc) {
             <div className="information row">
                 <div className="info col-12 col-md-6 align-self-center">
                     <Subtitle cls="info__subtitle" title={id} />
-                    <CardTitle cls="info__title--display" title={title} />
+                    <CardTitle cls="info__title info__title--display" title={title} />
                     <Description cls="info__desc" title={description} />
                 </div>
                 <div className="infomation__img col-12 col-md-6">
