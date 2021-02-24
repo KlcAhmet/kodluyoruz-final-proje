@@ -47,15 +47,11 @@ function Prevention() {
 function resultHTML(id, title, description, imagesrc) {
     return (
         <section key={id}>
-            <div className="infomation row">
+            <div className="information row">
                 <div className="info col-12 col-md-6 align-self-center">
-                    <div className="row">
-                        <Subtitle cls="info__subtitle" title={id} />
-                        <CardTitle cls="info__title" title={title} />
-                    </div>
-                    <div className="row">
-                        <Description cls="info__desc" title={description} />
-                    </div>
+                    <Subtitle cls="info__subtitle" title={id} />
+                    <CardTitle cls="info__title--display" title={title} />
+                    <Description cls="info__desc" title={description} />
                 </div>
                 <div className="infomation__img col-12 col-md-6">
                     <figure>
