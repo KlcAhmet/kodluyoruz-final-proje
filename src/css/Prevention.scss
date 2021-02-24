@@ -1,4 +1,10 @@
 @use 'App.scss';
+:root {
+    --font-style: normal;
+    --text-transform: var(--text-transform);
+    ;
+}
+
 
 /* :root {
     --subTitle-color: #035755;
@@ -9,3 +15,45 @@
     --font-weight-header: bold;
     --margin-bottom: 14px;
 } */
+
+.information {
+    .info {
+        &__subtitle {
+            background-color: rgba($color: #FA5652, $alpha: 0.15);
+            color: var(--selection-color);
+            border: 1px solid transparent;
+            border-radius: 100px;
+            font-family: var(--font-family);
+            font-style: var(--font-style);
+            font-weight: bold;
+            font-size: 35px;
+            padding: 7px;
+            margin-right: 25px;
+            line-height: 145%;
+            text-transform: var(--text-transform);
+        }
+        &__title {
+            color: var(--subTitle-color);
+            font-family: var(--font-family);
+            font-style: var(--font-style);
+            font-weight: 500;
+            font-size: 30px;
+            line-height: 147%;
+            text-transform: var(--text-transform);
+            ;
+            &--display {
+                display: inline;
+            }
+        }
+        &__desc {
+            color: var(--paragraph-color);
+            font-family: var(--font-family);
+            font-style: var(--font-style);
+            font-weight: normal;
+            font-size: 15px;
+            line-height: 221%;
+            margin-top: 17px;
+            text-transform: var(--text-transform);
+        }
+    }
+}
