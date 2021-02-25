@@ -35,18 +35,20 @@ function Statistics() {
                 </div>
                 <div className="col-12 col-xl-4">
                     <section>
-                        <div className="row col-12">
-                            <div className="col-6">
+                        <div className="information row">
+                            <div className="information__title col-6">
                                 <CardTitle cls="" title="Live Reports" />
                             </div>
                             <div className="col-6">
                                 <figure>
-                                    <OverviewImage src={arrows.mapStatArrow} />
+                                    <OverviewImage cls="information__img" src={arrows.mapStatArrow} />
                                 </figure>
                             </div>
                         </div>
                         <section>
-                            {stats}
+                            <div className="stats">
+                                {stats}
+                            </div>
                         </section>
                     </section>
                 </div>
@@ -58,18 +60,18 @@ function Statistics() {
 
 function flags(id, name, imagesrc, arrow) {
     return (
-        <div key={id} className="stats row col-12">
-            <div className="flag col-2">
-                <OverviewImage cls="" src={imagesrc} />
+        <div key={id} className="row col-12">
+            <div className="col-2">
+                <OverviewImage cls="stats__flag" src={imagesrc} />
             </div>
-            <div className="country col-4">
-                <CardTitle cls="" title={name} />
+            <div className="col-4">
+                <CardTitle cls="stats__country" title={name} />
             </div>
-            <div className="rate col-4">
-                <Description cls="" title="0000" />
+            <div className="col-4">
+                <Description cls="stats__rate" title="0000" />
             </div>
-            <div className="arrow col-2">
-                <OverviewImage src={arrow} cls="" />
+            <div className="col-2">
+                <OverviewImage src={arrow} cls="stats__arrow" />
             </div>
         </div>
     )
