@@ -36,17 +36,17 @@ function Statistics() {
                 <div className="col-12 col-xl-4">
                     <section>
                         <div className="information row">
-                            <div className="information__title col-6">
+                            <div className="information__title align-self-center col-8">
                                 <CardTitle cls="" title="Live Reports" />
                             </div>
-                            <div className="col-6">
+                            <div className="col-4">
                                 <figure>
                                     <OverviewImage cls="information__img" src={arrows.mapStatArrow} />
                                 </figure>
                             </div>
                         </div>
                         <section>
-                            <div className="stats">
+                            <div className="stats col-12">
                                 {stats}
                             </div>
                         </section>
@@ -60,7 +60,7 @@ function Statistics() {
 
 function flags(id, name, imagesrc, arrow) {
     return (
-        <div key={id} className="row col-12">
+        <div key={id} className="row">
             <div className="col-2">
                 <OverviewImage cls="stats__flag" src={imagesrc} />
             </div>
