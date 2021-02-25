@@ -2,9 +2,6 @@
 <g filter="url(#filter0_d)">
 <rect x="50" y="45.0005" width="86.0003" height="48.954" rx="6.16667" fill="white"/>
 </g>
-<path d="M73.222 76.8869L65.8789 69.5438L73.222 62.2007" stroke="#A2A5B2" stroke-width="2.85" stroke-linecap="round" stroke-linejoin="round"/>
-<path d="M112.185 62.0679L119.528 69.411L112.185 76.7541" stroke="#F44A45" stroke-width="2.85" stroke-linecap="round" stroke-linejoin="round"/>
-<line x1="93.4548" y1="60.6692" x2="93.4548" y2="78.0208" stroke="#DEE1ED" stroke-width="2.23" stroke-linecap="round"/>
 <defs>
 <filter id="filter0_d" x="0" y="0.000488281" width="186" height="148.954" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
