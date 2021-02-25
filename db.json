@@ -100,7 +100,7 @@
     "istatistic": {
         "map": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/Map.svg",
         "arrows": {
-            "mapStatArrow": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/mapStatArrow.svg",
+            "mapStatArrow": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/f88b2eabeea168118ac4de054bd4a1aacd018b4f/src/img/mapStatArrow.svg",
             "downArrow": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/down%20arrow.svg",
             "upArrow": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/up%20arrow.svg"
         },
