@@ -27,30 +27,30 @@ function Statistics() {
     return (
         <section>
             <div className="row">
-                <div className="col-12 col-md-8">
+                <div className="col-12 col-xl-8">
                     <figure>
                         <OverviewImage src={map} />
                     </figure>
                 </div>
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-xl-4">
                     <section>
                         <div className="row col-12">
                             <div className="col-6">
                                 <CardTitle cls="" title="Live Reports" />
                             </div>
                             <div className="col-6">
-                                <figure style={{ width: 60 }}>
+                                <figure>
                                     <OverviewImage src={arrows.mapStatArrow} />
                                 </figure>
                             </div>
                         </div>
-                    </section>
-                    <section>
-                        {stats}
+                        <section>
+                            {stats}
+                        </section>
                     </section>
                 </div>
             </div>
-        </section>
+        </section >
     )
 }
 
