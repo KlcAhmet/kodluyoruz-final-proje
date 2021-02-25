@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
 import { Description, OverviewImage, CardTitle } from "../componentmap/maincomponents"
+import '../css/Statistics.css'
 
 function Statistics() {
     const [map, setMap] = useState()
@@ -26,7 +27,7 @@ function Statistics() {
 
     return (
         <section>
-            <div className="row">
+            <div className="statistics row">
                 <div className="col-12 col-xl-8">
                     <figure>
                         <OverviewImage src={map} />
