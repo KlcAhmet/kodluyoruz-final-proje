@@ -18,7 +18,6 @@ body {
 }
 
 .common-button {
-    background: var(--selection-color);
     box-shadow: 0px 8px 87px rgba(0, 0, 0, 0.1);
     border-radius: 65px;
     padding: 24px 57px;
@@ -29,6 +28,9 @@ body {
     line-height: 29px;
     text-transform: capitalize;
     color: #FFFFFF;
+    &--dayBackGround {
+        background: var(--selection-color);
+    }
     &:hover {
         color: white;
     }
