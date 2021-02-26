@@ -1,6 +1,4 @@
 .darkmode {
-    /* display: flex;
-    justify-content: flex-end; */
     // **** ==== Slider v2 ==== **** //
     // ********** Background:
     .slider-v2 {
@@ -49,4 +47,8 @@
     &__checkbox:checked+.slider-v2::after {
         left: 98.5%;
     }
+}
+
+.darkmodediv {
+    background: linear-gradient(90deg, rgba(55, 88, 245, 1) 31%, rgba(34, 1, 99, 1) 76%);
 }
