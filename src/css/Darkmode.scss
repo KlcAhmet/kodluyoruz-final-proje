@@ -1,0 +1,52 @@
+.darkmode {
+    /* display: flex;
+    justify-content: flex-end; */
+    // **** ==== Slider v2 ==== **** //
+    // ********** Background:
+    .slider-v2 {
+        position: relative;
+        display: block;
+        width: 100%;
+        /* height: 1em; */
+        cursor: pointer;
+        border-radius: 1.5em;
+        transition: 350ms;
+        background: linear-gradient(rgba(#000, 0.07), rgba(#fff, 0)), #ddd;
+        box-shadow: 0 0.07em 0.1em -0.1em rgba(#000, .4) inset, 0 0.05em 0.08em -0.01em rgba(#fff, .7);
+    }
+    // ********** Switch:
+    .slider-v2::after {
+        position: absolute;
+        content: '';
+        width: 0.5em;
+        height: 0.5em;
+        top: 0.2em;
+        left: 0.8em;
+        border-radius: 50%;
+        transition: 250ms ease-in-out;
+        background: linear-gradient(#f5f5f5 10%, #eee);
+        box-shadow: 0 0.1em 0.15em -0.05em rgba(#fff, .9) inset, 0 0.2em 0.2em -0.12em rgba(#000, .5);
+    }
+    // ********** Channel:
+    .slider-v2::before {
+        position: absolute;
+        content: '';
+        width: 98%;
+        height: 0.5em;
+        top: 0.25em;
+        left: 0.75em;
+        border-radius: 0.75em;
+        transition: 250ms ease-in-out;
+        background: linear-gradient(rgba(#000, 0.07), rgba(#fff, 0.1)), #d0d0d0;
+        box-shadow: 0 0.08em 0.15em -0.1em rgba(#000, .5) inset, 0 0.05em 0.08em -0.01em rgba(#fff, .7), 0 0 0 0 rgba(#FB4C47, .7) inset;
+    }
+    &__checkbox {
+        display: none;
+    }
+    &__checkbox:checked+.slider-v2::before {
+        box-shadow: 0 0.08em 0.5em -0.1em rgba(#000, .5) inset, 0 0.05em 0.08em -0.01em rgba(#fff, .7), 64em 0 0 0 rgba(#FB4C47, .7) inset;
+    }
+    &__checkbox:checked+.slider-v2::after {
+        left: 98.5%;
+    }
+}
