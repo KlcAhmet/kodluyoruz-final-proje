@@ -36,7 +36,7 @@ function resultHTML(i, title, subtitle, description, imagesrc, buttontitle) {
                     <Title cls="info__title" title={title} />
                     <Subtitle cls="info__subtitle" title={subtitle} />
                     <Description cls="info__desc" title={description} />
-                    <CommonButton link="#" cls="common-button" text={buttontitle} />
+                    <CommonButton link="#" cls="common-button common-button--dayBackGround" text={buttontitle} />
                 </div>
                 <div className="content__img col-12 col-md-6">
                     <figure>
