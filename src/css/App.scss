@@ -10,7 +10,7 @@
 }
 
 body {
-    /* background: linear-gradient(0deg, #FFF8F8, #B57474); */
+    background: linear-gradient(0deg, rgba(255, 248, 248, 1) 9%, rgba(247, 222, 222, 1) 100%);
 }
 
 .wrapper {
@@ -69,6 +69,11 @@ body {
             width: 570px;
         }
     }
+}
+
+.renklidiv {
+    height: 5px;
+    background: linear-gradient(90deg, rgba(251, 76, 71, 1) 24%, rgba(3, 87, 85, 1) 100%);
 }
 
 @media screen and (max-width: 1000px) {
