@@ -33,11 +33,11 @@ function Statistics() {
                         <OverviewImage src={map} />
                     </figure>
                 </div>
-                <div className="col-12 col-xl-4">
+                <div className="stats-table col-12 col-md-6 col-xl-4">
                     <section>
                         <div className="information row">
-                            <div className="information__title align-self-center col-8">
-                                <CardTitle cls="" title="Live Reports" />
+                            <div className="align-self-center col-8">
+                                <CardTitle cls="information__title" title="Live Reports" />
                             </div>
                             <div className="col-4">
                                 <figure>
@@ -62,7 +62,9 @@ function flags(id, name, imagesrc, arrow) {
     return (
         <div key={id} className="row">
             <div className="col-2">
-                <OverviewImage cls="stats__flag" src={imagesrc} />
+                <figure>
+                    <OverviewImage cls="stats__flag" src={imagesrc} />
+                </figure>
             </div>
             <div className="col-4">
                 <CardTitle cls="stats__country" title={name} />
@@ -71,7 +73,9 @@ function flags(id, name, imagesrc, arrow) {
                 <Description cls="stats__rate" title="0000" />
             </div>
             <div className="col-2">
-                <OverviewImage src={arrow} cls="stats__arrow" />
+                <figure>
+                    <OverviewImage cls="stats__arrow" src={arrow} />
+                </figure>
             </div>
         </div>
     )
