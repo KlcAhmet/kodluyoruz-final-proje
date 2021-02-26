@@ -6,7 +6,9 @@
 
 .statistics {
     .stats-table {
-        background: linear-gradient(360deg, #FFFBFB -79.45%, #FDFDFD 105.35%);
+        &--background {
+            background: linear-gradient(360deg, #FFFBFB -79.45%, #FDFDFD 105.35%);
+        }
         box-shadow: 0px 7px 95px rgba(0, 0, 0, 0.07);
         border-radius: 0px;
         .information {

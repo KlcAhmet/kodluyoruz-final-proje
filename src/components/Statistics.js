@@ -33,7 +33,7 @@ function Statistics() {
                         <OverviewImage src={map} />
                     </figure>
                 </div>
-                <div className="stats-table col-12 col-md-6 col-xl-4">
+                <div id="stats-table" className="stats-table stats-table--background col-12 col-md-6 col-xl-4">
                     <section>
                         <div className="information row">
                             <div className="align-self-center col-8">

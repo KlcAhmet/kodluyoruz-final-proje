@@ -75,7 +75,9 @@ body {
 
 .renklidiv {
     height: 5px;
-    background: linear-gradient(90deg, rgba(251, 76, 71, 1) 24%, rgba(3, 87, 85, 1) 100%);
+    &--renkli {
+        background: linear-gradient(90deg, rgba(251, 76, 71, 1) 24%, rgba(3, 87, 85, 1) 100%);
+    }
 }
 
 @media screen and (max-width: 1000px) {
