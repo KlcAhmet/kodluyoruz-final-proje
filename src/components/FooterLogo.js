@@ -8,7 +8,6 @@ function FooterLogo() {
     useEffect(() => {
         axios.get('http://localhost:3004/footerLinks')
             .then(function ({ data }) {
-                console.log(data)
                 const result = []
                 data.forEach(({ id, imagesrc, link }) => {
                     const temp = <a className="socialmedia__link" key={id} href={link} target="_blank"><OverviewImage cls="" src={imagesrc} /></a>
