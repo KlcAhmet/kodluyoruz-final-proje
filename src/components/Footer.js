@@ -1,4 +1,5 @@
 import { Logo, HeaderLinks, FooterLogo } from "../componentmap/maincomponents"
+import '../css/Footer.css'
 
 function Footer() {
     return (
