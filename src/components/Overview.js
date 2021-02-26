@@ -4,7 +4,6 @@ import { Title, Subtitle, Description, OverviewImage, CommonButton } from "../co
 import '../css/Overview.css'
 
 function Overview() {
-
     const [infoLink, setInfoLink] = useState([])
 
     useEffect(() => {
