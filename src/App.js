@@ -9,8 +9,7 @@ import { Header, Footer, Overview, Contagion, Symptomps, Prevention, Statistics 
 /* css */
 import 'bootstrap/dist/css/bootstrap.css'
 import './css/App.css'
-import './css/Footer.css'
-import './css/Darkmode.css'
+
 
 function App() {
   return (
