@@ -1,5 +1,3 @@
-import { Overview } from "../componentmap"
-
 export const selection = () => {
     const switchbtn = document.getElementById("s3")
     const background = document.getElementById("root")
