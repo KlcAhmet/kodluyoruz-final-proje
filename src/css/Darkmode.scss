@@ -49,6 +49,14 @@
     }
 }
 
-.darkmodediv {
+.dark-div {
     background: linear-gradient(90deg, rgba(55, 88, 245, 1) 31%, rgba(34, 1, 99, 1) 76%);
+}
+
+.dark-body {
+    background: linear-gradient(0deg, rgba(161, 157, 157, 1) 2%, rgba(0, 0, 0, 1) 100%);
+}
+
+.dark-common-button {
+    background: rgb(55, 88, 245);
 }
