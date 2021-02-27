@@ -1,4 +1,8 @@
 @use 'App.scss';
+.modal-header {
+    padding: 3px 10px;
+}
+
 .modal-body {
     &__title {}
     &__subtitle {}
