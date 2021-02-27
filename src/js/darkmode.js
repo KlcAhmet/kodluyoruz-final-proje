@@ -16,6 +16,7 @@ export const selection = () => {
         }
         overview(1)
         istatistics(1)
+        contagion(1)
 
     } else {
         /* sayfa arkaplan */
@@ -29,6 +30,7 @@ export const selection = () => {
         }
         overview(0)
         istatistics(0)
+        contagion(0)
     }
 
 }
@@ -62,6 +64,21 @@ function overview(deger) {
         for (let element of commonButton) {
             element.classList.remove("dark-common-button")
             element.classList.add("common-button--dayBackGround")
+        }
+    }
+}
+function contagion(deger) {
+    const card = document.getElementsByClassName("card")
+    if (card == null) {
+        return
+    }
+    if (deger == 1) {
+        for (let element of card) {
+            element.classList.add("dark-stats-table")
+        }
+    } else {
+        for (let element of card) {
+            element.classList.remove("dark-stats-table")
         }
     }
 }
