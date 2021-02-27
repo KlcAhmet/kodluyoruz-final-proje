@@ -7,6 +7,7 @@ import {
 import { Header, Footer, Overview, Contagion, Symptomps, Prevention, Statistics } from "./componentmap/index"
 /* css */
 import 'bootstrap/dist/css/bootstrap.css'
+import 'bootstrap/js/dist/modal'
 import './css/App.css'
 import { selection } from './js/darkmode.js'
 
