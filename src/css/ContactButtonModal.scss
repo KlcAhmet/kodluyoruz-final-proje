@@ -1,0 +1,9 @@
+@use 'App.scss';
+.modal-body {
+    &__title {}
+    &__subtitle {}
+    &__mail-block {
+        &__input {}
+        &__common-button {}
+    }
+}
