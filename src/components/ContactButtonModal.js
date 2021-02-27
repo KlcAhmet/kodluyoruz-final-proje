@@ -14,7 +14,7 @@ function ContactButtonModal() {
                     <div class="modal-body">
                         <h5 className="modal-body__title">Have Question in mind?</h5>
                         <span className="modal-body__subtitle">Let us help you</span>
-                        <div className="modal-body__mail-block">
+                        <div className="modal-body__mail-block row">
                             <input className="modal-body__mail-block__input" type="email" placeholder="snmonydemo@gmail.com" />
                             <CommonButton link="#" cls="common-button common-button--dayBackGround modal-body__mail-block__common-button" text="Send" />
                         </div>
