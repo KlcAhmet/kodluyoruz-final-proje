@@ -47,7 +47,7 @@
         }
     }
     .contact {
-        button {
+        &__btn {
             background: transparent;
             border: 2px solid var(--selection-color);
             border-radius: 46px;
