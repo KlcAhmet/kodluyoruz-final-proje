@@ -1,13 +1,76 @@
 @use 'App.scss';
-.modal-header {
-    padding: 3px 10px;
+ :root {
+    --font-weight-modal: 500;
+    --font-size-modal: 35px;
+    --line-height-modal: 77px;
+    --text-align-modal: center;
 }
 
-.modal-body {
-    &__title {}
-    &__subtitle {}
-    &__mail-block {
-        &__input {}
-        &__common-button {}
+.modal-content {
+    background-color: rgb(228, 226, 226) !important;
+    .modal-header {
+        padding: 3px 10px;
+    }
+    .modal-body {
+        display: flex;
+        flex-direction: column;
+        &__title {
+            color: var(--subTitle-color);
+            font-family: var(--font-family);
+            font-style: var(--font-style);
+            font-weight: var(--font-weight-modal);
+            font-size: var(--font-size-modal);
+            text-align: var(--text-align-modal);
+        }
+        &__subtitle {
+            color: var(--subTitle-color);
+            font-family: var(--font-family);
+            font-style: var(--font-style);
+            font-weight: var(--font-weight-modal);
+            font-size: var(--font-size-modal);
+            text-align: var(--text-align-modal);
+        }
+        &__mail-block {
+            padding: 10px;
+            background-color: rgb(255, 255, 255);
+            border-radius: 50px;
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+            &__input {
+                border: none;
+                border-radius: 50px;
+                color: var(--paragraph-color);
+                font-family: var(-font-family);
+                font-style: var(--font-style);
+                font-weight: normal;
+                font-size: 22px;
+                line-height: 26px;
+                outline: none;
+                width: 295px;
+            }
+            /* &__common-button {} */
+        }
+    }
+}
+
+@media screen and (max-width: 495px) {
+    .modal-content {
+        .modal-body {
+            &__mail-block {
+                justify-content: center;
+                flex-direction: column;
+                &__input {
+                    margin-left: 50%;
+                    transform: translateX(-50%);
+                    padding: 10px;
+                    text-align: center;
+                }
+                &__common-button {
+                    text-align: center;
+                    width: 100%;
+                }
+            }
+        }
     }
 }
