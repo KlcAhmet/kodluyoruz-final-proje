@@ -1,4 +1,5 @@
 import { CommonButton } from "../componentmap/maincomponents"
+import '../css/ContactButtonModal.css'
 
 function ContactButtonModal() {
     return (
