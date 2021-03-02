@@ -161,5 +161,73 @@
             "imagesrc": "https://raw.githubusercontent.com/KlcAhmet/kodluyoruz-final-proje/master/src/img/footerTwitter.svg",
             "link": "http://twitter.com"
         }
+    ],
+
+    "countries": [{
+            "id": 0,
+            "name": "China",
+            "method": "GET",
+            "url": "https://covid-19-data.p.rapidapi.com/country",
+            "params": { "name": "China" },
+            "headers": {
+                "x-rapidapi-key": "6e43be1b67msh60805ce6a8b6644p171ea9jsnce77f6bc2a8d",
+                "x-rapidapi-host": "covid-19-data.p.rapidapi.com"
+            }
+        },
+        {
+            "id": 1,
+            "name": "Germany",
+            "method": "GET",
+            "url": "https://covid-19-data.p.rapidapi.com/country",
+            "params": { "name": "Germany" },
+            "headers": {
+                "x-rapidapi-key": "6e43be1b67msh60805ce6a8b6644p171ea9jsnce77f6bc2a8d",
+                "x-rapidapi-host": "covid-19-data.p.rapidapi.com"
+            }
+        },
+        {
+            "id": 2,
+            "name": "Iran",
+            "method": "GET",
+            "url": "https://covid-19-data.p.rapidapi.com/country",
+            "params": { "name": "Iran" },
+            "headers": {
+                "x-rapidapi-key": "6e43be1b67msh60805ce6a8b6644p171ea9jsnce77f6bc2a8d",
+                "x-rapidapi-host": "covid-19-data.p.rapidapi.com"
+            }
+        },
+        {
+            "id": 3,
+            "name": "Italy",
+            "method": "GET",
+            "url": "https://covid-19-data.p.rapidapi.com/country",
+            "params": { "name": "Italy" },
+            "headers": {
+                "x-rapidapi-key": "6e43be1b67msh60805ce6a8b6644p171ea9jsnce77f6bc2a8d",
+                "x-rapidapi-host": "covid-19-data.p.rapidapi.com"
+            }
+        },
+        {
+            "id": 4,
+            "name": "Spain",
+            "method": "GET",
+            "url": "https://covid-19-data.p.rapidapi.com/country",
+            "params": { "name": "Spain" },
+            "headers": {
+                "x-rapidapi-key": "6e43be1b67msh60805ce6a8b6644p171ea9jsnce77f6bc2a8d",
+                "x-rapidapi-host": "covid-19-data.p.rapidapi.com"
+            }
+        },
+        {
+            "id": 5,
+            "name": "USA",
+            "method": "GET",
+            "url": "https://covid-19-data.p.rapidapi.com/country",
+            "params": { "name": "USA" },
+            "headers": {
+                "x-rapidapi-key": "6e43be1b67msh60805ce6a8b6644p171ea9jsnce77f6bc2a8d",
+                "x-rapidapi-host": "covid-19-data.p.rapidapi.com"
+            }
+        }
     ]
 }
