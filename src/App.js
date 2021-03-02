@@ -10,7 +10,6 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/js/dist/modal'
 import './css/App.css'
 import { selection } from './js/darkmode.js'
-import { main } from './js/covidData.js'
 
 
 function App() {
@@ -18,7 +17,7 @@ function App() {
     <Router>
       <Header />
       <main>
-        <div className="container wrapper" onLoad={selection, main}>
+        <div className="container wrapper" onLoad={selection}>
           <Switch>
             <Route path="/contagion" component={Contagion} />
             <Route path="/Symptoms" component={Symptomps} />
