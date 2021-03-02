@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react"
 import axios from "axios"
 import { Description, OverviewImage, CardTitle } from "../componentmap/maincomponents"
 import '../css/Statistics.css'
+import { maplink } from '../componentmap/dataBaseMap.js'
 
 function Statistics() {
     const [map, setMap] = useState()
@@ -9,7 +10,7 @@ function Statistics() {
     const [stats, setStats] = useState([])
 
     useEffect(() => {
-        axios.get('http://localhost:3004/istatistic')
+        axios.get(`${maplink}/istatistic`)
             .then(function ({ data }) {
                 const result = []
                 setArrows(data.arrows)
@@ -24,7 +25,7 @@ function Statistics() {
                 console.log("Hata")
                 console.log(error)
             })
-        axios.get('http://localhost:3004/countries')
+        axios.get(`${maplink}/countries`)
             .then(function (data) {
                 data.data.forEach((element, i) => {
                     setTimeout(() => {

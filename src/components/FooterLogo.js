@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
 import { OverviewImage } from "../componentmap/maincomponents"
+import { maplink } from '../componentmap/dataBaseMap.js'
 
 function FooterLogo() {
     const [footerLink, setFooterLink] = useState([])
 
     useEffect(() => {
-        axios.get('http://localhost:3004/footerLinks')
+        axios.get(`${maplink}/footerLinks`)
             .then(function ({ data }) {
                 const result = []
                 data.forEach(({ id, imagesrc, link }) => {

@@ -1,13 +1,14 @@
 import { NavLink } from "react-router-dom"
 import React, { useState, useEffect } from "react"
 import axios from "axios"
+import { maplink } from '../componentmap/dataBaseMap.js'
 
 
 function HeaderLinks() {
     const [headerLinks, setHeaderLinks] = useState([])
 
     useEffect(() => {
-        axios.get('http://localhost:3004/headerLinks')
+        axios.get(`${maplink}/headerLinks`)
             .then(function ({ data }) {
                 const resultNav = []
                 data.forEach(({ id, title, link }) => {

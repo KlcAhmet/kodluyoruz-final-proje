@@ -2,12 +2,13 @@ import React, { useState, useEffect } from "react"
 import axios from "axios"
 import { Title, Subtitle, Description, OverviewImage, CommonButton } from "../componentmap/maincomponents"
 import '../css/Overview.css'
+import { maplink } from '../componentmap/dataBaseMap.js'
 
 function Overview() {
     const [infoLink, setInfoLink] = useState([])
 
     useEffect(() => {
-        axios.get('http://localhost:3004/indexPage')
+        axios.get(`${maplink}/indexPage`)
             .then(function ({ data }) {
                 const result = []
                 data.forEach(({ title, subtitle, description, imagesrc, buttontitle }, i) => {

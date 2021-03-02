@@ -2,14 +2,15 @@ import React, { useState, useEffect } from "react"
 import axios from "axios"
 import { Title, Subtitle, Description, OverviewImage, CardTitle } from "../componentmap/maincomponents"
 import '../css/Prevention.css'
-
+import { maplink } from '../componentmap/dataBaseMap.js'
 function Prevention() {
     const [header, setHeader] = useState([])
     const [information, setInformation] = useState([])
 
 
+
     useEffect(() => {
-        axios.get('http://localhost:3004/preventionPage')
+        axios.get(`${maplink}/preventionPage`)
             .then(function ({ data }) {
                 const result = []
                 setHeader(data)

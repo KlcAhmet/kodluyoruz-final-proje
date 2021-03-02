@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from "react"
 import axios from "axios"
 import { Title, Subtitle, Description, OverviewImage } from "../componentmap/maincomponents"
+import { maplink } from '../componentmap/dataBaseMap.js'
 
 function Symptoms() {
     const [info, setInfo] = useState([])
 
     useEffect(() => {
-        axios.get('http://localhost:3004/symptompsPage')
+        axios.get(`${maplink}/symptompsPage`)
             .then(function ({ data }) {
                 setInfo(data)
             })

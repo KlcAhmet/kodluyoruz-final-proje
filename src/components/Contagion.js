@@ -2,14 +2,14 @@ import React, { useState, useEffect } from "react"
 import axios from "axios"
 import { Title, Subtitle, Description, OverviewImage, CardTitle } from "../componentmap/maincomponents"
 import '../css/Contagion.css'
+import { maplink } from '../componentmap/dataBaseMap.js'
 
 function Contagion() {
     const [info, setInfo] = useState([])
     const [cards, setCard] = useState([])
 
-
     useEffect(() => {
-        axios.get('http://localhost:3004/contagionPage')
+        axios.get(`${maplink}/contagionPage`)
             .then(function ({ data }) {
                 const result = []
                 setInfo(data)
