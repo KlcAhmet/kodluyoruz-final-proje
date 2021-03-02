@@ -5,7 +5,7 @@ function Logo() {
     return (
         <div className="logo">
             <figure style={{ margin: "0" }}>
-                <a href="/"><img src={logo} className="logo__img img-fluid" alt="logo.svg" /></a>
+                <a href="/overview"><img src={logo} className="logo__img img-fluid" alt="logo.svg" /></a>
             </figure>
         </div>
     )

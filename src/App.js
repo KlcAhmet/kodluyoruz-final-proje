@@ -23,7 +23,7 @@ function App() {
             <Route path="/Symptoms" component={Symptomps} />
             <Route path="/prevention" component={Prevention} />
             <Route path="/statistics" component={Statistics} />
-            <Route path="/" component={Overview} />
+            <Route path="/overview" component={Overview} />
           </Switch>
         </div>
       </main>
