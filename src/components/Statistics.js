@@ -71,7 +71,6 @@ function Statistics() {
                     </section>
                 </div>
             </div>
-            {/* <div><p>{countryData}</p></div> */}
         </section >
     )
 }
