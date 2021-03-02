@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kodluyoruz-final-proje/static/css/main.25c7388e.chunk.css",
-    "main.js": "/kodluyoruz-final-proje/static/js/main.014a0d8c.chunk.js",
-    "main.js.map": "/kodluyoruz-final-proje/static/js/main.014a0d8c.chunk.js.map",
+    "main.js": "/kodluyoruz-final-proje/static/js/main.b29ac127.chunk.js",
+    "main.js.map": "/kodluyoruz-final-proje/static/js/main.b29ac127.chunk.js.map",
     "runtime-main.js": "/kodluyoruz-final-proje/static/js/runtime-main.008eebf4.js",
     "runtime-main.js.map": "/kodluyoruz-final-proje/static/js/runtime-main.008eebf4.js.map",
     "static/css/2.658248ec.chunk.css": "/kodluyoruz-final-proje/static/css/2.658248ec.chunk.css",
@@ -21,6 +21,6 @@
     "static/css/2.658248ec.chunk.css",
     "static/js/2.9e6e9576.chunk.js",
     "static/css/main.25c7388e.chunk.css",
-    "static/js/main.014a0d8c.chunk.js"
+    "static/js/main.b29ac127.chunk.js"
   ]
 }
