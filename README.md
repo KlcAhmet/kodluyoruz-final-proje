@@ -3,7 +3,7 @@
 # About The Project
 **Covid19 React Project**
 
- -  [View Demo on Github](https://klcahmet.github.io/kodluyoruz-final-proje/))
+ -  [View Demo on Github](https://klcahmet.github.io/kodluyoruz-final-proje/)
   
 
 ## Overview
