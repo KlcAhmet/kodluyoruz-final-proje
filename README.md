@@ -3,7 +3,7 @@
 # About The Project
 **Covid19 React Project**
 
- -  [View Demo on Github](https://klcahmet.github.io/kodluyoruz-final-proje/)
+ -  [View Demo on Github](https://klcahmet.github.io/kodluyoruz-final-proje/))
   
 
 ## Overview
@@ -43,3 +43,27 @@ console.error(error);
 });}, i * 2000);});})
 ```
 I'm used delay for rapidapi.com freemium version
+
+## Components
+
+ - Pages
+	 - Header.js		// header
+		 - Logo.js                   //using for website logo
+		 - HeaderLinks.js	// using for get navlink element
+		 - ContactButton.js	// using for contact (bootstrap modal)
+		 - darkmode.js	//using for dark mode
+		 - 
+	 - Overview.js
+		 - Title.js // using for mostly title 
+		 - Subtitle.js	//using for mostly subtitle 
+		 - Description.js	//using for mostly paragraph < p > element
+		 - CommonButton.js //using for mostly common button
+		 - Overviewmage.js //using for mostly image < img > element
+	 - Symptoms.js
+	 - Prevention.js
+	 - Statistics.js
+		 - Connecting https://rapidapi.com/Gramzivi/api/covid-19-data/endpoints for countries live covid report. Rate Limit 1 requests per second. 
+	 - Footer.js // footer
+		  - Logo.js                   
+		 - HeaderLinks.js
+		 - FooterLogo.js
