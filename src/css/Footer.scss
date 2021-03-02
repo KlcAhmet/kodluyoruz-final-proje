@@ -18,6 +18,13 @@
         justify-content: flex-end;
         &__link {
             margin: 0 15px;
+            border: 2px solid transparent;
+            border-radius: 50px;
+            padding: 5px;
+            &:hover {
+                border-color: turquoise;
+                background-color: turquoise;
+            }
         }
     }
 }
