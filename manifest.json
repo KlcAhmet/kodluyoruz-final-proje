@@ -6,7 +6,7 @@
         "sizes": "64x64 32x32 24x24 16x16",
         "type": "shortcut icon"
     }],
-    "start_url": "./kodluyoruz-final-proje/",
+    "start_url": "https://klcahmet.github.io/kodluyoruz-final-proje/",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#ffffff"
