@@ -17,12 +17,30 @@ function Statistics() {
                 data.flag.forEach(({ id, name, imagesrc }) => {
                     result.push(flags(id, name, imagesrc, data.arrows.upArrow))
                 });
+
                 setStats(result)
             })
             .catch(function (error) {
                 console.log("Hata")
                 console.log(error)
             })
+        axios.get('http://localhost:3004/countries')
+            .then(function (data) {
+                data.data.forEach((element, i) => {
+                    setTimeout(() => {
+                        axios.request(element).then(function (response) {
+                            document.getElementById("stats").children[i].children[2].children[0].textContent = response.data[0].confirmed
+                        }).catch(function (error) {
+                            console.error(error);
+                        });
+                    }, i * 2000);
+                });
+            })
+            .catch(function (error) {
+                console.log(error);
+            })
+
+
     }, [])
 
     return (
@@ -46,13 +64,14 @@ function Statistics() {
                             </div>
                         </div>
                         <section>
-                            <div className="stats col-12">
+                            <div id="stats" className="stats col-12">
                                 {stats}
                             </div>
                         </section>
                     </section>
                 </div>
             </div>
+            {/* <div><p>{countryData}</p></div> */}
         </section >
     )
 }
@@ -70,7 +89,7 @@ function flags(id, name, imagesrc, arrow) {
                 <CardTitle cls="stats__country" title={name} />
             </div>
             <div className="col-4">
-                <Description cls="stats__rate" title="0000" />
+                <Description cls="stats__rate" title="Loading..." />
             </div>
             <div className="col-2">
                 <figure>
