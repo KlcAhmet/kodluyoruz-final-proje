@@ -1,0 +1,1 @@
+export const maplink = "https://api.npoint.io/c21a9f4ed8af214a328d"
